@@ -8,7 +8,7 @@ import Welcome from "./pages/home/HomeWelcome";
 import Impact from "./pages/home/Impact";
 import CTA from "./pages/home/HomeCta";
 import HomeServices from "./pages/home/HomeServices";
-import WhyChoose from "./pages/Home/WhyChoose";
+import WhyChoose from "./pages/home/WhyChoose"; // fixed lowercase 'home'
 import Gallery from "./pages/home/HomeGallery";
 import Testimonials from "./pages/home/HomeTestimonial";
 
@@ -29,7 +29,6 @@ import CallIcon from "./components/Call";
 const App = () => {
   return (
     <>
-     
       <Navbar />
 
       <Routes>
@@ -53,7 +52,6 @@ const App = () => {
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/contact" element={<ContactPage />} />
 
-
         <Route path="/services/:slug" element={<ServicePage />} />
 
         {/* Network Routes */}
@@ -65,8 +63,7 @@ const App = () => {
         <Route path="/network/ambulance-service-in-south-delhi" element={<SouthDelhi />} />
       </Routes>
 
-
-<CallIcon/>
+      <CallIcon />
       <Footer />
     </>
   );
