@@ -25,6 +25,7 @@ import HauzKhas from "./pages/network/hauz-khas/page";
 import Malviya from "./pages/network/malviya/page";
 import SouthDelhi from "./pages/network/south-delhi/page";
 import CallIcon from "./components/Call";
+import WhatsAppIcon from "./pages/home/Icon";
 
 const App = () => {
   return (
@@ -64,6 +65,7 @@ const App = () => {
       </Routes>
 
       <CallIcon />
+      <WhatsAppIcon/>
       <Footer />
     </>
   );

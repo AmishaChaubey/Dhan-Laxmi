@@ -23,7 +23,7 @@ const CallIcon = () => {
         <div className="absolute inset-0 w-14 h-14 bg-red-400 rounded-full animate-ping opacity-20 pointer-events-none"></div>
 
         {/* Tooltip - appears on hover */}
-        <div className="absolute bottom-16 left-0 bg-[#0097b2]  text-white text-sm px-3 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none">
+        <div className="absolute bottom-16 left-0 bg-red-800   text-white text-sm px-3 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none">
           Call us
           <div className="absolute top-full left-4 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-red-700"></div>
         </div>

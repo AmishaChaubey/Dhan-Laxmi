@@ -286,14 +286,7 @@ Dedicated to saving lives through prompt, well-equipped ambulance services and t
           </div>
         </div>
         
-        {/* Back to Top Button */}
-        <div 
-          className={`back-to-top ${isVisible ? 'visible' : ''}`}
-          onClick={scrollToTop}
-          aria-label="Back to top"
-        >
-          <ArrowUp className="w-5 h-5" />
-        </div>
+       
       </footer>
     </>
   );
