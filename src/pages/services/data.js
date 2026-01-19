@@ -4,7 +4,7 @@ export const services = [
   {
     slug: "ambulance-services",
     title: "Ambulance Services",
-    heroImage: "/banner-img/26.png",
+    heroImage: "/banner-img/ambulance.png",
    
      
     overview:
@@ -24,6 +24,47 @@ export const services = [
     gallery: ["/dhanLakshmi-img/11.jpg", "/dhanLakshmi-img/14.jpg","/dhanLakshmi-img/13.jpg"],
     contact: "+91- 9711875038",
   },
+  {
+  slug: "nursing-care-services",
+  title: "Nursing Care Services",
+  heroImage: "/banner-img/26.png",
+
+  overview:
+    "Our nursing care services provide professional medical support at home for patients requiring continuous care, recovery assistance, or critical monitoring. We offer trained nurses, experienced doctors, and compassionate attendants to ensure personalized treatment and comfort. Our ICU setup at home includes advanced equipment such as ventilators, infusion pumps, patient beds, and oxygen cylinders. We maintain hospital-level hygiene, regular health monitoring, and clear communication with family members for complete peace of mind.",
+
+  inclusions: [
+    "Trained nurses & doctors",
+    "24/7 patient monitoring",
+    "Home ICU setup",
+    "Ventilator support",
+    "Infusion (reach) pump",
+    "Patient bed with oxygen cylinder",
+    "Professional attendants"
+  ],
+
+  process: [
+    { step: 1, title: "Consultation", desc: "Call us to discuss patient condition and care requirements." },
+    { step: 2, title: "Care Assessment", desc: "Our medical team evaluates and plans personalized care." },
+    { step: 3, title: "Setup at Home", desc: "Nursing staff and medical equipment arranged at home." },
+    { step: 4, title: "Ongoing Care", desc: "Continuous monitoring and support by trained professionals." }
+  ],
+
+  faqs: [
+    { q: "Do you provide ICU setup at home?", a: "Yes, we offer complete ICU setup including ventilator and monitoring equipment." },
+    { q: "Are nurses professionally trained?", a: "Yes, all nurses are certified and experienced in patient care." },
+    { q: "Can doctors visit the patient at home?", a: "Yes, doctors are available for regular checkups and emergencies." },
+    { q: "Is nursing care available 24/7?", a: "Yes, we provide round-the-clock nursing and attendant services." }
+  ],
+
+  gallery: [
+    "/services/n1.jfif",
+    "/services/n2.jfif",
+    "/services/n3.jfif"
+  ],
+
+  contact: "+91- 9711875038",
+},
+
 
   {
     slug: "road-ambulance-services",
