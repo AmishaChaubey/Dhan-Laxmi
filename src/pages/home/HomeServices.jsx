@@ -6,17 +6,17 @@ export default function HomeServices() {
 
   const leftColumnServices = [
     'Emergency Ambulance Service',
-    'ICU Ambulance Support',
-    'Hospital Admissions & Discharges',
-    'Accident & Trauma Care',
-    'Inter-Hospital Transfers'
+    'ICU Ambulance Service',
+    'Train Ambulance',
+    'Air Ambulance',
+    'Deadbody freezer box service at home'
   ];
 
   const rightColumnServices = [
-    '24/7 Ambulance Availability',
-    'Oxygen & Ventilator Support',
-    'Cardiac Care Transport',
-    'Outstation Ambulance Service',
+    'Nursing Care Services',
+    'Oxygen & Ventilator Ambulance',
+    'Cardiac Care Ambulance',
+    'Road Ambulance Service',
     'And many other medical services'
   ];
 

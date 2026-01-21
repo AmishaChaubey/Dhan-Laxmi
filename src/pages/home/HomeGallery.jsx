@@ -14,41 +14,60 @@ const GoogleFonts = () => (
 const services = [
   {
     title: "Emergency Ambulance",
-    desc: "Rapid emergency ambulance service with trained staff, life-saving equipment, and 24/7 availability for critical medical situations.",
+    desc: "Rapid-response emergency ambulance service with trained paramedics, life-saving equipment, and 24/7 availability for critical medical situations.",
     img: "/services/news-1.jpg",
-    link:"/services/ambulance-services"
+    link: "/services/ambulance-services"
   },
   {
-    title: "Dead Body Freezer Box",
-    desc: "Advanced dead body freezer box service to preserve the body safely, maintain hygiene, and ensure dignity during final rites.",
+    title: "Dead Body Freezer Box At Home",
+    desc: "Dead body freezer box service for home use to preserve the body safely, maintain hygiene, and ensure dignity until final rites are performed.",
     img: "/services/athome.jpg",
-    link:"/services/deadbody-freezer-box-at-home"
+    link: "/services/deadbody-freezer-box-at-home"
   },
   {
     title: "Mortuary Ambulance",
-    desc: "Professional mortuary ambulance service providing safe, respectful, and timely transportation of deceased bodies.",
+    desc: "Dedicated mortuary ambulance service for the safe, respectful, and timely transportation of deceased bodies to hospitals or cremation grounds.",
     img: "/services/deadbody-ambulance.jpg",
-    link:"/services/deadbody-ambulance-services"
+    link: "/services/deadbody-ambulance-services"
   },
   {
     title: "Air Ambulance Service",
-    desc: "Fast air ambulance service with ICU setup, expert medical team, and rapid patient transfer across long distances.",
+    desc: "Advanced air ambulance service with ICU-equipped aircraft, experienced medical teams, and fast intercity or international patient transfers.",
     img: "/services/air-ambulance.jpg",
-    link:"/services/air-ambulance-services"
+    link: "/services/air-ambulance-services"
   },
   {
     title: "Ventilator Ambulance",
-    desc: "Fully equipped ventilator ambulance service with advanced life support systems and continuous medical monitoring.",
+    desc: "Ventilator-equipped ambulance providing advanced life support, continuous oxygen supply, and real-time monitoring for critical patients.",
     img: "/services/ventilaor-ambulance.jpg",
-    link:"/services/ventilator-ambulance-services"
+    link: "/services/ventilator-ambulance-services"
   },
   {
     title: "Train Ambulance Service",
-    desc: "Reliable train ambulance service offering cost-effective, medically supervised patient transport across cities.",
+    desc: "Cost-effective train ambulance service with medical supervision, ICU setup, and safe long-distance patient transfer across cities.",
     img: "/services/train-ambulance.jpg",
-    link:"/services/train-ambulance-services"
+    link: "/services/train-ambulance-services"
+  },
+  {
+    title: "Cardiac Care Ambulance",
+    desc: "Specialized cardiac care ambulance equipped with defibrillators, cardiac monitors, and trained staff for heart-related emergencies.",
+    img: "/dhanLakshmi-img/16.jpg",
+    link: "/services/cardiac-care-ambulance"
+  },
+  {
+    title: "ICU Ambulance Services",
+    desc: "Fully equipped ICU ambulance with ventilators, infusion pumps, monitors, and critical care specialists for high-risk patients.",
+    img: "/dhanLakshmi-img/14.jpg",
+    link: "/services/icu-ambulance-services"
+  },
+  {
+    title: "Nursing Care Service",
+    desc: "Professional nursing care services at home including patient care, medication management, post-surgical support, and elderly care.",
+    img: "https://i.pinimg.com/1200x/67/24/59/672459bd8b57c94cd4e6cdba7d19ea96.jpg",
+    link: "/services/nursing-care-services"
   },
 ];
+
 
 const Gallery = () => {
   return (
