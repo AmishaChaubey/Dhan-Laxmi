@@ -6,19 +6,25 @@ export default function HomeServices() {
 
   const leftColumnServices = [
     'Emergency Ambulance Service',
+    'Road Ambulance Service',
     'ICU Ambulance Service',
     'Train Ambulance',
     'Air Ambulance',
-    'Deadbody freezer box service at home'
+    'Deadbody freezer box service at home',
+     'AC/& Non AC Ambulance',
+    
   ];
 
   const rightColumnServices = [
-    'Nursing Care Services',
+    'Mobile Mortuary Service',
     'Oxygen & Ventilator Ambulance',
     'Cardiac Care Ambulance',
-    'Road Ambulance Service',
-    'And many other medical services'
-  ];
+    'Basic & Advance Life Support Ambulance',
+    'Ambulance Tempo Traveler',
+    'Eeco Ambulance',
+    'Trax Ambulance',
+   
+  ]
 
   const allServices = [...leftColumnServices, ...rightColumnServices];
 
@@ -82,45 +88,54 @@ export default function HomeServices() {
           </div>
 
           {/* Right Section - Service Cards */}
-          <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+         <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
 
-            {/* Emergency Ambulance */}
-            <div className="bg-[#1e4d83] text-white p-5 sm:p-6 rounded shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <h2 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3">Emergency Ambulance</h2>
-              <p className="text-xs sm:text-sm leading-relaxed">
-                Fast and reliable emergency ambulance service equipped with trained medical staff to ensure immediate care during critical situations.
-              </p>
-            </div>
+  {/* Emergency Ambulance */}
+  <div className="bg-[#1e4d83] text-white p-5 sm:p-6 rounded shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <h2 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3">
+      Emergency Ambulance
+    </h2>
+    <p className="text-xs sm:text-sm leading-relaxed">
+      Fast and reliable emergency ambulance service equipped with trained medical staff to ensure immediate care during critical situations.
+      Our ambulances operate 24/7 and are fitted with essential life-saving equipment to provide safe, quick, and smooth hospital transfers.
+    </p>
+  </div>
 
-            {/* ICU Ambulance */}
-            <div className="bg-white border-2 border-gray-300 p-5 sm:p-6 rounded shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <h2 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 text-[#1e4d83]">
-                ICU Ambulance
-              </h2>
-              <p className="text-xs sm:text-sm leading-relaxed text-[#1e4d83]">
-                Fully equipped ICU ambulances with ventilator, cardiac monitor, oxygen support, and expert paramedics.
-              </p>
-            </div>
+  {/* ICU Ambulance */}
+  <div className="bg-white border-2 border-gray-300 p-5 sm:p-6 rounded shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <h2 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 text-[#1e4d83]">
+      ICU Ambulance
+    </h2>
+    <p className="text-xs sm:text-sm leading-relaxed text-[#1e4d83]">
+      Fully equipped ICU ambulances with ventilator, cardiac monitor, oxygen support, and expert paramedics for critical patient care.
+      Continuous monitoring and advanced medical facilities ensure maximum safety, stability, and comfort during transportation.
+    </p>
+  </div>
 
-            {/* Dead Body Ambulance */}
-            <div className="bg-white border-2 border-gray-300 p-5 sm:p-6 rounded shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <h2 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 text-[#1e4d83]">
-                Dead Body Ambulance
-              </h2>
-              <p className="text-xs sm:text-sm leading-relaxed text-[#1e4d83]">
-                Respectful and hygienic dead body transportation services with freezer box facility available on request.
-              </p>
-            </div>
+  {/* Dead Body Ambulance */}
+  <div className="bg-white border-2 border-gray-300 p-5 sm:p-6 rounded shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <h2 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 text-[#1e4d83]">
+      Dead Body Ambulance
+    </h2>
+    <p className="text-xs sm:text-sm leading-relaxed text-[#1e4d83]">
+      Respectful and hygienic dead body transportation services with freezer box facility available on request for preservation.
+      We ensure dignity, proper handling, and timely transportation for both local and long-distance transfers.
+    </p>
+  </div>
 
-            {/* Outstation Ambulance */}
-            <div className="bg-[#1e4d83] text-white p-5 sm:p-6 rounded shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <h2 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3">Outstation Ambulance</h2>
-              <p className="text-xs sm:text-sm leading-relaxed">
-                Safe and comfortable long-distance ambulance services with medical supervision across cities and states.
-              </p>
-            </div>
+  {/* Outstation Ambulance */}
+  <div className="bg-[#1e4d83] text-white p-5 sm:p-6 rounded shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <h2 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3">
+      Outstation Ambulance
+    </h2>
+    <p className="text-xs sm:text-sm leading-relaxed">
+      Safe and comfortable long-distance ambulance services with professional medical supervision across cities and states.
+      Our outstation ambulances focus on patient comfort, reliability, and timely support for intercity and interstate medical travel.
+    </p>
+  </div>
 
-          </div>
+</div>
+
         </div>
       </div>
     </div>

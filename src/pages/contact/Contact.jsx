@@ -194,7 +194,7 @@ export default function ContactPage() {
 
 
       {/* Breadcrumb Navigation */}
-      <div className="bg-white border-b border-slate-200 sticky top-16 sm:top-18 lg:top-20 z-30 shadow-sm">
+      <div className="bg-white border-b border-slate-200 top-16 sm:top-18 lg:top-20 z-30 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4">
           <nav className="flex items-center space-x-2 text-sm sm:text-base">
             <Link 

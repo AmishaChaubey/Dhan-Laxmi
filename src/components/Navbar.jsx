@@ -130,8 +130,10 @@ const Navbar = () => {
     { title: "Train Ambulance Services", slug: "train-ambulance-services" },
     { title: "DeadBody Freezer Box At Home", slug: "deadbody-freezer-box-at-home" },
     { title: "ICU Ambulance Services", slug: "icu-ambulance-services" },
-    { title: "AC Ambulance Services", slug: "ac-ambulance-services" },
+    { title: "AC & Non-AC Ambulance Services", slug: "ac-ambulance-services" },
+    { title: "Basic & Advanced Life Support Ambulance", slug: "basic-advanced-life-support-ambulance" },
     { title: "Cardiac Care Ambulance", slug: "cardiac-care-ambulance" },
+    { title: "Eeco Ambulance Services", slug: "eeco-ambulance-services" },
     { title: "Oxygen System Ambulance Services", slug: "oxygen-system-ambulance-services" },
   ];
 

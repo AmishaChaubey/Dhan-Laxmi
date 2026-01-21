@@ -177,6 +177,73 @@ export const services = [
   },
 
   {
+  slug: "basic-advanced-life-support-ambulance",
+  title: "Basic & Advanced Life Support Ambulance",
+  heroImage: "/banner-img/48.png",
+  overview:
+    "Basic Life Support (BLS) and Advanced Life Support (ALS) ambulance services are designed to provide safe and medically equipped transportation for patients requiring continuous monitoring and professional care. BLS ambulances are suitable for stable patients needing basic medical assistance, while ALS ambulances are equipped for critical patients who require advanced medical intervention during transit. Both services ensure timely response, patient safety, and professional medical support throughout the journey.",
+  inclusions: [
+    "Basic Life Support (BLS) and Advanced Life Support (ALS) options",
+    "Oxygen support and medical stretcher",
+    "Trained EMTs and paramedical staff",
+    "Monitoring equipment for vital signs",
+    "Emergency medicines and medical kits",
+    "Clean, sanitized, and well-equipped ambulance"
+  ],
+  process: [
+    { step: 1, title: "Booking", desc: "Call or WhatsApp to book BLS or ALS ambulance based on patient condition." },
+    { step: 2, title: "Ambulance Dispatch", desc: "Nearest suitable life support ambulance is dispatched immediately." },
+    { step: 3, title: "Patient Assessment", desc: "Medical staff assess and stabilize the patient before transportation." },
+    { step: 4, title: "Safe Transfer", desc: "Patient is continuously monitored and safely transported to the destination." }
+  ],
+  faqs: [
+    { q: "What is the difference between BLS and ALS ambulance?", a: "BLS ambulances provide basic medical care for stable patients, while ALS ambulances are equipped with advanced life-saving equipment for critical patients." },
+    { q: "Do ALS ambulances have advanced equipment?", a: "Yes, ALS ambulances include cardiac monitors, defibrillators, ventilators, and emergency medications." },
+    { q: "Are trained medical professionals available?", a: "Yes, both BLS and ALS ambulances have trained paramedics or medical staff onboard." },
+    { q: "When should I choose ALS over BLS?", a: "ALS should be chosen for patients requiring advanced medical intervention or continuous critical monitoring." }
+  ],
+  gallery: [
+   "/dhanLakshmi-img/12.jpg",
+    "/dhanLakshmi-img/11.jpg",
+    "/dhanLakshmi-img/14.jpg"
+  ],
+  contact: "+91-9711875038"
+},
+{
+  slug: "eeco-ambulance-services",
+  title: "Eeco Ambulance Services",
+  heroImage: "/banner-img/47.png",
+  overview:
+    "Eeco ambulance services are designed for safe, reliable, and cost-effective patient transportation, especially for non-critical and stable medical conditions. These ambulances are ideal for hospital visits, routine check-ups, discharge transfers, and short to medium-distance travel. Equipped with a medical stretcher, oxygen support, and trained attendants, Eeco ambulances ensure patient comfort, safety, and timely pickup and drop at an affordable cost.",
+  inclusions: [
+    "Eeco ambulance vehicle",
+    "Medical stretcher facility",
+    "Oxygen support if required",
+    "Trained ambulance attendant",
+    "Clean and hygienic interior",
+    "Affordable and budget-friendly service"
+  ],
+  process: [
+    { step: 1, title: "Booking", desc: "Call or WhatsApp to book an Eeco ambulance quickly." },
+    { step: 2, title: "Ambulance Dispatch", desc: "Nearest available Eeco ambulance is assigned and dispatched." },
+    { step: 3, title: "Patient Pickup", desc: "Patient is carefully assisted and loaded into the ambulance." },
+    { step: 4, title: "Safe Transfer", desc: "Patient is transported safely and dropped at the destination on time." }
+  ],
+  faqs: [
+    { q: "What is an Eeco ambulance used for?", a: "Eeco ambulances are used for non-critical patient transport, hospital visits, and routine medical transfers." },
+    { q: "Is oxygen support available in Eeco ambulance?", a: "Yes, oxygen support can be provided on request." },
+    { q: "Is Eeco ambulance affordable?", a: "Yes, Eeco ambulances are a budget-friendly option compared to ICU or ALS ambulances." },
+    { q: "Are attendants trained?", a: "Yes, trained attendants are present to assist the patient during transport." }
+  ],
+  gallery: [
+   "/dhanLakshmi-img/12.jpg",
+    "/dhanLakshmi-img/11.jpg",
+    "/dhanLakshmi-img/14.jpg"
+  ],
+  contact: "+91-9711875038"
+},
+
+  {
     slug: "deadbody-freezer-box-at-home",
     title: "Dead Body Freezer Box at Home",
     heroImage: "/banner-img/34.png",
@@ -222,25 +289,38 @@ export const services = [
 
   {
     slug: "ac-ambulance-services",
-    title: "AC Ambulance Services",
-    heroImage: "/banner-img/36.png",
-    overview:
-      "AC ambulance services are ideal for stable patients requiring hospital visits, check-ups, or home-to-hospital transfers. Air-conditioned interiors, comfortable stretchers, oxygen support, and trained attendants ensure a smooth and stress-free journey. These ambulances focus on patient comfort and safety while maintaining hygiene and timely pickup/drop, making them suitable for non-critical medical transport.",
-    inclusions: ["Air-conditioned ambulance", "Oxygen support", "Comfortable stretcher", "Trained staff"],
-    process: [
-      { step: 1, title: "Booking", desc: "Call to book AC ambulance." },
-      { step: 2, title: "Pickup", desc: "Patient picked up on time." },
-      { step: 3, title: "Drop", desc: "Patient dropped safely at destination." },
-    ],
-    faqs: [
-      { q: "Is AC ambulance for emergencies?", a: "Yes, suitable for non-critical emergencies." },
-      { q: "Is oxygen provided?", a: "Yes, oxygen support is available." },
-      { q: "Are staff trained?", a: "Yes, trained medical attendants are present." },
-      { q: "Is ambulance comfortable?", a: "Yes, air-conditioning and stretchers provide comfort." },
-    ],
-    gallery: ["/dhanLakshmi-img/12.jpg", "/dhanLakshmi-img/11.jpg","/dhanLakshmi-img/14.jpg"],
-    contact: "+91- 9711875038",
-  },
+  title: "AC & Non-AC Ambulance Services",
+  heroImage: "/banner-img/36.png",
+  overview:
+    "AC and Non-AC ambulance services provide safe, reliable, and comfortable medical transportation for patients in stable condition. AC ambulances are ideal for patients who require a temperature-controlled and comfortable environment during hospital visits, check-ups, or home-to-hospital transfers. Non-AC ambulances are a cost-effective option for short-distance travel and routine patient transfers. Both services are equipped with stretchers, oxygen support, and trained medical attendants to ensure patient safety, hygiene, and timely pickup and drop.",
+  inclusions: [
+    "AC and Non-AC ambulance options available",
+    "Oxygen support with mask",
+    "Comfortable medical stretcher",
+    "Trained medical attendants",
+    "Clean and hygienic ambulance interior",
+    "Timely pickup and safe drop"
+  ],
+  process: [
+    { step: 1, title: "Booking", desc: "Call or WhatsApp to book AC or Non-AC ambulance as per patient requirement." },
+    { step: 2, title: "Ambulance Dispatch", desc: "Nearest suitable ambulance is assigned and dispatched quickly." },
+    { step: 3, title: "Patient Pickup", desc: "Patient is safely assisted and loaded with proper care." },
+    { step: 4, title: "Safe Transfer", desc: "Patient is transported comfortably and dropped at the destination on time." }
+  ],
+  faqs: [
+    { q: "What is the difference between AC and Non-AC ambulance?", a: "AC ambulances provide air-conditioning for added comfort, while Non-AC ambulances are a budget-friendly option for stable patients." },
+    { q: "Is oxygen support available in both?", a: "Yes, oxygen support is available in both AC and Non-AC ambulances." },
+    { q: "Are these ambulances suitable for emergencies?", a: "These ambulances are suitable for non-critical and stable emergency situations." },
+    { q: "Are medical attendants provided?", a: "Yes, trained medical attendants assist the patient during the journey." }
+  ],
+  gallery: [
+    "/dhanLakshmi-img/12.jpg",
+    "/dhanLakshmi-img/11.jpg",
+    "/dhanLakshmi-img/14.jpg"
+  ],
+  contact: "+91-9711875038"
+},
+
 
   {
     slug: "cardiac-care-ambulance",
