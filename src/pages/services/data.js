@@ -365,5 +365,45 @@ export const services = [
     gallery: ["/dhanLakshmi-img/15.jpg", "/dhanLakshmi-img/14.jpg","/dhanLakshmi-img/11.jpg"],
     contact: "+91- 9711875038",
   },
+  {
+  slug: "deadbody-freezer-box-ambulance",
+  title: "Dead Body Freezer Box Ambulance",
+  heroImage: "/banner-img/49.png",
+
+  overview:
+    "Our dead body freezer box ambulance service combines dignified transportation with advanced preservation facilities. The ambulance is equipped with a temperature-controlled freezer box to safely preserve the deceased during transit. This service is ideal for long-distance transfers, hospital-to-home transport, or cremation ground transfers while maintaining hygiene, safety, and respect throughout the journey. Our trained staff ensures compassionate handling and timely service during sensitive moments.",
+
+  inclusions: [
+    "Freezer box fitted ambulance",
+    "Temperature-controlled preservation",
+    "24/7 availability",
+    "Sanitized vehicle",
+    "Trained and respectful staff",
+    "Safe transport for long distances"
+  ],
+
+  process: [
+    { step: 1, title: "Service Request", desc: "Call or WhatsApp to book freezer box ambulance service." },
+    { step: 2, title: "Ambulance Dispatch", desc: "Nearest freezer box ambulance is dispatched promptly." },
+    { step: 3, title: "Dignified Transfer", desc: "Deceased is transported safely with preservation support." },
+    { step: 4, title: "Final Drop", desc: "Delivered to home, hospital, or cremation ground respectfully." }
+  ],
+
+  faqs: [
+    { q: "What is a freezer box ambulance?", a: "It is an ambulance fitted with a freezer box to preserve the body during transport." },
+    { q: "Is the service available 24/7?", a: "Yes, we provide round-the-clock freezer box ambulance services." },
+    { q: "Can it be used for long-distance transport?", a: "Yes, it is suitable for both short and long-distance transfers." },
+    { q: "Is the ambulance sanitized?", a: "Yes, complete sanitization is done before every service." }
+  ],
+
+  gallery: [
+    "/dhanLakshmi-img/15.jpg",
+    "/dhanLakshmi-img/26.jpeg",
+    "/dhanLakshmi-img/17.jpeg"
+  ],
+
+  contact: "+91-9711875038",
+}
+
 
 ];

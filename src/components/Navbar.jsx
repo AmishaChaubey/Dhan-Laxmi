@@ -124,6 +124,7 @@ const Navbar = () => {
     { title: "Ambulance Services", slug: "ambulance-services" },
      { title: "Nursing Care Services", slug: "nursing-care-services" },
     { title: "Road Ambulance Services", slug: "road-ambulance-services" },
+        { title: "Dead Body Freezer Box Ambulance", slug: "deadbody-freezer-box-ambulance" },
     { title: "Dead Body Ambulance Services", slug: "deadbody-ambulance-services" },
     { title: "Ventilator Ambulance Services", slug: "ventilator-ambulance-services" },
     { title: "Air Ambulance Services", slug: "air-ambulance-services" },

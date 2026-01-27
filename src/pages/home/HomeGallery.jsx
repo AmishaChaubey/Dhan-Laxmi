@@ -25,8 +25,8 @@ const services = [
     link: "/services/deadbody-freezer-box-at-home"
   },
   {
-    title: "Mortuary Ambulance",
-    desc: "Dedicated mortuary ambulance service for the safe, respectful, and timely transportation of deceased bodies to hospitals or cremation grounds.",
+    title: "Deadbody Ambulance",
+    desc: "Dedicated Deadbody ambulance service for the safe, respectful, and timely transportation of deceased bodies to hospitals or cremation grounds.",
     img: "/services/deadbody-ambulance.jpg",
     link: "/services/deadbody-ambulance-services"
   },
