@@ -368,7 +368,7 @@ export const services = [
   {
   slug: "deadbody-freezer-box-ambulance",
   title: "Dead Body Freezer Box Ambulance",
-  heroImage: "/banner-img/49.png",
+  heroImage: "/banner-img/39.png",
 
   overview:
     "Our dead body freezer box ambulance service combines dignified transportation with advanced preservation facilities. The ambulance is equipped with a temperature-controlled freezer box to safely preserve the deceased during transit. This service is ideal for long-distance transfers, hospital-to-home transport, or cremation ground transfers while maintaining hygiene, safety, and respect throughout the journey. Our trained staff ensures compassionate handling and timely service during sensitive moments.",
