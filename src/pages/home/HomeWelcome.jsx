@@ -47,7 +47,7 @@ export default function HomeWelcome() {
             <div className="relative order-2">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="/dhanLakshmi-img/14.jpg" 
+                  src="/services/33.png" 
                   alt="Emergency Ambulance" 
                   className="w-full h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] object-cover"
                 />

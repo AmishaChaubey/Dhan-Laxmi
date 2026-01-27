@@ -37,13 +37,13 @@ export const aboutPageData = {
             ", ensuring patient safety and quick transportation to nearby hospitals."
         },
         image:
-          "https://i.pinimg.com/1200x/54/57/3e/54573e41047e492bef02ad50e0eb92b6.jpg",
+          "/dhanLakshmi-img/15.jpg",
         imageAlt: "Emergency ambulance service in Green Park"
       },
 
       row2: {
         image:
-          "https://i.pinimg.com/736x/eb/1c/7b/eb1c7bd8d510e8293299de8b2cfd1ca2.jpg",
+          "/dhanLakshmi-img/12.jpg",
         imageAlt: "Advanced ambulance medical equipment",
         text1: {
           before: "We specialize in providing ",

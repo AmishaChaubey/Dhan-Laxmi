@@ -220,7 +220,7 @@ export default function ContactPage() {
           <div className="relative overflow-hidden rounded-xl sm:rounded-2xl lg:rounded-3xl shadow-xl order-2 lg:order-1 group">
             <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent z-10"></div>
             <img
-              src="/contact.jfif"
+              src="/services/contact.png"
               alt="Service welcome"
               className="h-full w-full object-cover min-h-[350px] sm:min-h-[400px] md:min-h-[500px] lg:min-h-[600px] xl:min-h-[700px] group-hover:scale-105 transition-transform duration-700"
             />

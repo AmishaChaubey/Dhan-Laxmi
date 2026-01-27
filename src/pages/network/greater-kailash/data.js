@@ -37,13 +37,13 @@ export const aboutPageData = {
             ", ensuring patient safety and comfort throughout the journey."
         },
         image:
-          "https://i.pinimg.com/736x/df/5d/4b/df5d4b95fad62acc87af46603c982109.jpg",
+          "/dhanLakshmi-img/11.jpg",
         imageAlt: "Emergency ambulance service in Greater Kailash"
       },
 
       row2: {
         image:
-          "https://i.pinimg.com/736x/1b/17/93/1b179309f034d6869cf6e10ef0424a56.jpg",
+          "/dhanLakshmi-img/12.jpg",
         imageAlt: "Non-emergency ambulance medical transport",
         text1: {
           before: "We offer ",

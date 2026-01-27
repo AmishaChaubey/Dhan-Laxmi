@@ -37,13 +37,13 @@ export const aboutPageData = {
             ", making them the most reliable first responders during medical emergencies.",
         },
         image:
-          "https://i.pinimg.com/1200x/00/f2/ad/00f2ad606ced665aa3eadc76cb3778f8.jpg",
+          "/dhanLakshmi-img/12.jpg",
         imageAlt: "Emergency ambulance service in Hauz Khas",
       },
 
       row2: {
         image:
-          "https://i.pinimg.com/1200x/0d/2e/83/0d2e838f7d2c74c6412df1bfae3155b4.jpg",
+          "/dhanLakshmi-img/20.jpeg",
         imageAlt: "Non emergency ambulance service in Hauz Khas",
         text1: {
           before:

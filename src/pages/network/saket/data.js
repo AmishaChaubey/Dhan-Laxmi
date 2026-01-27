@@ -37,13 +37,13 @@ export const aboutPageData = {
             ", ensuring immediate care and stabilization before reaching the hospital.",
         },
         image:
-          "https://i.pinimg.com/736x/ef/db/4d/efdb4de7877fb0fce569511a06917c12.jpg",
+          "/dhanLakshmi-img/13.jpg",
         imageAlt: "Emergency ambulance service in Saket",
       },
 
       row2: {
         image:
-          "https://i.pinimg.com/736x/a2/6e/ef/a26eef892860c6425c7f737106f63bd7.jpg",
+          "/dhanLakshmi-img/12.jpg",
         imageAlt: "Non emergency ambulance transport",
         text1: {
           before:

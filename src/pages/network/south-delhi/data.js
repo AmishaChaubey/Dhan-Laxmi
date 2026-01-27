@@ -37,13 +37,13 @@ export const aboutPageData = {
             ", making them the first and most reliable responders during medical emergencies.",
         },
         image:
-          "https://i.pinimg.com/736x/72/13/03/721303dc38e01c8bdf54e396ed3e047e.jpg",
+          "/dhanLakshmi-img/12.jpg",
         imageAlt: "Emergency ambulance service in South Delhi",
       },
 
       row2: {
         image:
-          "https://i.pinimg.com/736x/08/36/20/0836206c353aeab1dc6fdf991624f3fb.jpg",
+          "/dhanLakshmi-img/26.jpeg",
         imageAlt: "Non emergency ambulance service in South Delhi",
         text1: {
           before:

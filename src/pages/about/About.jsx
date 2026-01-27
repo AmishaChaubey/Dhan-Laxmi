@@ -19,7 +19,7 @@ export default function AboutPage() {
   {/* Background Image */}
   <div className="absolute inset-0">
     <img
-      src="/banner-img/24.png"
+      src="/banner-img/about.png"
       alt="Dhanlaxmi Ambulance Service"
       className="w-full h-full object-cover scale-105"
     />
@@ -62,14 +62,14 @@ export default function AboutPage() {
               
               <div className="relative rounded-3xl overflow-hidden shadow-xl">
                 <img
-                  src="https://i.pinimg.com/736x/d1/67/38/d16738fb060a1262a718cda84f90651a.jpg"
+                  src="/dhanLakshmi-img/1.png"
                   alt="Medical Experts"
                   className="w-full h-full object-cover"
                 />
               </div>
 
               {/* Floating Card - Adjusted for mobile to not overflow */}
-              <div className="absolute -bottom-4 -right-4 md:-bottom-8 md:-right-8 bg-white rounded-2xl shadow-xl p-4 md:p-6 max-w-[260px] md:max-w-xs z-10">
+              <div className="absolute -bottom-4 -right-4 md:-bottom-8 md:-right-8 bg-white rounded-2xl shadow-xl p-4 md:p-2 max-w-[260px] md:max-w-xs z-10">
                 <div className="flex items-center gap-3 md:gap-4">
                   <div className="w-12 h-12 md:w-16 md:h-16 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
                     <CheckCircle className="w-6 h-6 md:w-8 md:h-8 text-green-600" />

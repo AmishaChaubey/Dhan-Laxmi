@@ -37,13 +37,13 @@ export const aboutPageData = {
             " and operated by trained paramedics and medical staff to handle all types of medical emergencies efficiently.",
         },
         image:
-          "https://i.pinimg.com/736x/bf/e8/63/bfe863c3dd967c7663a4fe6bc3663c7d.jpg",
+          "/dhanLakshmi-img/12.jpg",
         imageAlt: "24/7 emergency ambulance service in Malviya Nagar",
       },
 
       row2: {
         image:
-          "https://i.pinimg.com/736x/1a/4c/13/1a4c1347eb818ea07f3cc0ac14b59471.jpg",
+          "/dhanLakshmi-img/14.jpg",
         imageAlt: "Non emergency ambulance service in Malviya Nagar",
         text1: {
           before:

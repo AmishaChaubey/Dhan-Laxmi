@@ -59,7 +59,7 @@ export default function Cta() {
             {/* Main Image Container */}
             <div className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl border border-white">
               <img 
-                src="https://i.pinimg.com/1200x/33/c1/d1/33c1d16ab76774b75ad45def31d74204.jpg"
+                src="/services/cta.png"
                 alt="Emergency Medical Services"
                 className="w-full h-[300px] sm:h-[360px] md:h-[400px] lg:h-[380px] xl:h-[420px] object-cover transform group-hover:scale-105 transition-transform duration-700"
               />
@@ -79,7 +79,7 @@ export default function Cta() {
               </div>
 
               {/* Bottom Stats Overlay */}
-              <div className="absolute bottom-4 sm:bottom-5 md:bottom-6 left-4 sm:left-5 md:left-6 right-4 sm:right-5 md:right-6 bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-3 sm:p-4 md:p-5 flex justify-between text-white">
+              <div className="absolute bottom-4 sm:bottom-5 md:bottom-0 left-4 sm:left-5 md:left-6 right-4 sm:right-5 md:right-6 bg-white/10 backdrop-blur-md border border-white/20 rounded-lg p-3 sm:p-4 md:p-2 flex justify-between text-white">
                 <div className="text-center flex-1">
                   <p className="text-lg sm:text-xl md:text-2xl font-bold">5 Min</p>
                   <p className="text-[9px] sm:text-[10px] md:text-xs uppercase tracking-wide opacity-80 mt-0.5">Avg Response</p>
