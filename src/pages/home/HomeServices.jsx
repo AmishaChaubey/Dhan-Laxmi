@@ -10,13 +10,15 @@ export default function HomeServices() {
     'ICU Ambulance Service',
     'Train Ambulance',
     'Air Ambulance',
-    'Deadbody freezer box service at home',
      'AC/& Non AC Ambulance',
+         'Mobile Mortuary Service',
+
     
   ];
 
   const rightColumnServices = [
-    'Mobile Mortuary Service',
+        'Deadbody freezer box service at home',
+
     'Oxygen & Ventilator Ambulance',
     'Cardiac Care Ambulance',
     'Basic & Advance Life Support Ambulance',
@@ -64,7 +66,7 @@ export default function HomeServices() {
                     <div className="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                       <CheckCircle className="w-4 h-4 text-[#a81514]" />
                     </div>
-                    <span className="text-[#1e4d83] text-sm leading-tight">
+                    <span className="text-[#1e4d83] text-sm font-medium leading-tight">
                       {service}
                     </span>
                   </div>
@@ -78,7 +80,7 @@ export default function HomeServices() {
                     <div className="w-6 h-6 bg-red-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                       <CheckCircle className="w-4 h-4 text-[#a81514]" />
                     </div>
-                    <span className="text-[#1e4d83] text-sm leading-tight">
+                    <span className="text-[#1e4d83] text-sm font-medium leading-tight">
                       {service}
                     </span>
                   </div>

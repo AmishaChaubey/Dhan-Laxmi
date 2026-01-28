@@ -233,7 +233,7 @@ Dedicated to saving lives through prompt, well-equipped ambulance services and t
                   <Phone className="contact-icon w-5 h-5 mr-3 mt-0.5 text-white" />
                   <div>
                     <a href="tel: +91-9711875038" className="footer-text">+91-9711875038</a>
-                    <p className="footer-text-muted text-sm">Mon-Fri: 9am-6pm</p>
+<p className="footer-text-muted text-sm">24×7 Service (All Days)</p>
                   </div>
                 </li>
                 <li className="contact-item flex items-start">
